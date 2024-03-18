@@ -118,6 +118,41 @@ function animateHomepage() {
       },
     });
 }
+// function ani() {
+//   document.getElementById("c3").style.display = "none";
+// }
+// function anireturn() {
+//   document.getElementById("c3").style.display = "block";
+// }
+// function toggleDisplay() {
+//   var element = document.getElementById("c3");
+//   if (element.style.display === "none") {
+//     element.style.display = "block";
+//   } else {
+//     element.style.display = "none";
+//   }
+// }
+
+// function toggleDisplay(elementId) {
+//   var element = document.getElementById(elementId);
+//   if (element.style.display === "none") {
+//     element.style.display = "block";
+//   } else {
+//     element.style.display = "none";
+//   }
+// }
+
+// function toggleDisplay2(elementId, elementId2) {
+//   var element = document.getElementById(elementId);
+//   var element2 = document.getElementById(elementId2);
+//   if (element.style.display === "none" || element2.style.display === "none") {
+//     element.style.display = "block";
+//     element2.style.display = "block";
+//   } else {
+//     element.style.display = "none";
+//     element2.style.display = "none";
+//   }
+// }
 
 revealToSpan();
 valueSetters();
