@@ -288,7 +288,7 @@ html, body{
 }
 
 #imgrig .imgcntnr:nth-child(1){
-    z-index: 3;
+    z-index: 2;
     transform: translate(-40%, -8%) rotate(-20deg);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     background-image: url('images/1.jpg');
@@ -296,7 +296,7 @@ html, body{
     background-position: center;
 }
 #imgrig .imgcntnr:nth-child(2){
-    z-index: 3;
+    z-index: 2;
     transform: translate(-12%, 0%) rotate(-15deg);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     background-image: url('images/2.jpg');
