@@ -118,6 +118,8 @@ function animateHomepage() {
       },
     });
 }
+
+
 // function ani() {
 //   document.getElementById("c3").style.display = "none";
 // }
@@ -161,7 +163,7 @@ function locoInitialize() {
   });
 }
 
-//revealToSpan();
-//valueSetters();
-//loaderAnimation();
+revealToSpan();
+valueSetters();
+loaderAnimation();
 locoInitialize();

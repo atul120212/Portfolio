@@ -39,7 +39,7 @@ html, body{
     width: 100%;
 }
 #loader{
-    display: none;
+    /* display: none; */
     z-index: 999;
     position: fixed;
     width: 100%;
@@ -96,7 +96,7 @@ html, body{
 }
 
 #green{
-    display: none;
+    /* display: none; */
     position: absolute;
     top: 100%;
     width: 100%;
