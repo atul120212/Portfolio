@@ -39,7 +39,7 @@ html, body{
     width: 100%;
 }
 #loader{
-    /* display: none; */
+    display: none;
     z-index: 999;
     position: fixed;
     width: 100%;
@@ -96,7 +96,7 @@ html, body{
 }
 
 #green{
-    /* display: none; */
+    display: none;
     position: absolute;
     top: 100%;
     width: 100%;
@@ -248,6 +248,7 @@ html, body{
 #imagery #imglef{
     width: 30%;
     height: auto;
+    z-index: 2;
 }
 
 #imglef h1 {
@@ -345,22 +346,47 @@ html, body{
     z-index: 2;
 }
 .workrow h1{
+    display: flex;
     font-size: 8vw;
     font-weight: 600;
+    align-items: baseline;
     letter-spacing: 1px;
+}
 
+.workrow h1 .mini{
+    font-size: 2vw;
+    font-weight: 500;
+    margin-left: 5vw;
 }
 
 .char{
     font-family: 'charm';
     /* font-size: 2.5vw; */
     /* font-weight: 400;
-    color: #6379a4;
-    margin-top: 1vw; */
+    color: #6379a4; */
+    margin-bottom: -1.5vw;
     color: #f15564;
-    letter-spacing: 0;
 }
 
 
+#images{
+    position: relative;
+    width: 100%;
+    padding: 0 5vw;
 
+}
+#cnt{
+    width: 65%;
+    overflow: hidden;
+    border-radius: 50px;
+}
+#cnt img {
+    width: 105%;
+
+}
+
+.demo{
+    width: 100%;
+    height: 100px;
+}
 

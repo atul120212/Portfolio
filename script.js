@@ -154,6 +154,14 @@ function animateHomepage() {
 //   }
 // }
 
-revealToSpan();
-valueSetters();
-loaderAnimation();
+function locoInitialize() {
+  const scroll = new LocomotiveScroll({
+    el: document.querySelector("#main"),
+    smooth: true,
+  });
+}
+
+//revealToSpan();
+//valueSetters();
+//loaderAnimation();
+locoInitialize();
