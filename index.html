@@ -14,7 +14,7 @@
 <body>
 
     <div id="main">
-        <div id="loader">
+        <div id="loader" onmouseover="">
             <div id="topheading">
                 <h5 class="reveal">Developer Portfolio</h5>
                 <h5 class="reveal">&copy; 2024</h5>
@@ -36,10 +36,12 @@
                 </a>
                 <a href="">Socials
                     <span id="line1" class="line"></span>
-                    <span id="line2" class="line"></span></a>
+                    <span id="line2" class="line"></span>
+                </a>
                 <a href="">Contact
                     <span id="line1" class="line"></span>
-                    <span id="line2" class="line"></span></a>
+                    <span id="line2" class="line"></span>
+                </a>
             </div>
             <div class="row">
                 <h1 class="reveal">Creative</h1>
@@ -81,11 +83,10 @@
                         <br>HAD SOME <span>HANDS-ON</span>
                         <br>EXPERIENCE WITH
                         <br><span>FLUTTER</span> FOR MOBILE.
-
                     </h1>
                 </div>
                 <div id="imgrig">
-                    <div class="imgcntnr">
+                    <div class="imgcntnr" onmouseover="" onmouseout="">
                     </div>
                     <div class="imgcntnr">
                     </div>
@@ -102,10 +103,29 @@
                         src="data:image/png;base64,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">
                 </div>
                 <div id="images">
-                    <div id="cnt">
-                        <img data-scroll data-scroll-speed="-1.5" src="images/img11.jpg" alt="">
+                    <div class="cnt cnt1">
+                        <img data-index="0" data-scroll data-scroll-speed="-1.5" src="images/img2.jpg" alt="">
                     </div>
-                    <div class=" demo">
+                    <div class="cnt cnt2">
+                        <img data-index="1" data-scroll data-scroll-speed="-1.5" src="images/img2.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div id="cursor">
+                <div>
+                    <div class="crow">
+                        <div class="ccircle"></div>
+                        <div class="ccapsule">
+                            GenBlog
+                        </div>
+                    </div>
+                    <div id="elem">
+                        <img src="images/1.jpg" alt="">
+                        <img src="images/1.jpg" alt="">
+                        <img src="images/1.jpg" alt=""> 
+                        <img src="images/1.jpg" alt="">
+                        <img src="images/1.jpg" alt="">
                     </div>
                 </div>
             </div>

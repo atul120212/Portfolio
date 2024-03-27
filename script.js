@@ -119,7 +119,6 @@ function animateHomepage() {
     });
 }
 
-
 // function ani() {
 //   document.getElementById("c3").style.display = "none";
 // }
@@ -163,7 +162,17 @@ function locoInitialize() {
   });
 }
 
+function cardShow() {
+  document.querySelectorAll(".cnt").forEach(function (cnt) {
+    cnt.addEventListener("mousemove", function (dets) {
+      document.querySelector("#cursor").children[dets.target.dataset.index].style.opacity = 1;
+      document.querySelector("#cursor").children[dets.target.dataset.index].style.transform = `translate(${dets.clientX}px, ${dets.clientY}px)`;
+    });
+  });
+}
+
 revealToSpan();
 valueSetters();
 loaderAnimation();
 locoInitialize();
+cardShow();
