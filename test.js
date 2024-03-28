@@ -1,9 +1,3 @@
-var a1 = 10;
-let a2 = 20;
+const gameName = new String("Asphalt");
 
-// if (a1 != a2) {
-//   a1 = 20;
-//   a2 = 10;
-//   console.log(a1, a2);
-// }
-
+console.log(gameName.slice(-6, 4));

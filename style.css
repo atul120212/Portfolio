@@ -377,7 +377,7 @@ html, body{
     position: relative;
     width: 100%;
     padding: 0 5vw;
-    /* margin-bottom: 6vw; */
+    margin-bottom: 6vw;
 
 }
 .cnt{
@@ -412,7 +412,6 @@ html, body{
     width: 100%;
     position: relative;
 }
-
 
 #cursor .crow{
     display: flex;
@@ -456,9 +455,7 @@ html, body{
 #elem img:nth-child(5){
     animation-delay: 4s;
 }
-/* #elem img:nth-child(3){
-    animation-delay: 2s;
-} */
+
 
 @keyframes an {
     0%{
